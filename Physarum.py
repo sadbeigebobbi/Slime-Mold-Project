@@ -146,6 +146,7 @@ if __name__ == "__main__":
 
 #%%
 import networkx as nx
+import matplotlib.pyplot as plt
 
 G = nx.Graph()
 
@@ -171,3 +172,4 @@ nx.draw(G, pos,
 
 plt.title("Physarum Network After Convergence")
 plt.show()
+
